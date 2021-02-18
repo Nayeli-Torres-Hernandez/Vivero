@@ -1,0 +1,121 @@
+<link rel="stylesheet" type="text/css" href="css/miestilo.css">
+<body>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="text-center" id="contenedor">
+                    <figure>
+                        <img id="imagen" src="media/img/pastoo.jpg" alt="...">
+                        <div id="capa">
+                            <h3 id="titulo">¡COTIZA!</h3>
+                            <p id="texto" class="text-center">Pregunta por los paquetes de productos y servicios que te podemos ofrecer.</p>
+                            <br>                            
+                            <p id="texto" class="text-center">Vivero Sun Flower</p>
+                            <br>
+                            <a id="boton_personalizado" href="#formulario">CONTÁCTANOS</a>       
+                        </div>
+                    </figure>
+                </div>
+            </div>   
+            <div class="col-sm-6">
+                <div class="text-center" id="contenedor">
+                    <figure>
+                        <img id="imagen" src="media/img/pasto2.jpg" alt="...">
+                        <div id="capa">
+                            <h3 id="titulo">¡COTIZA!</h3>
+                            <p id="texto" class="text-center">En el vivero Sun Flower encuentras todo lo que buscas para tus plantas.</p>
+                            <br>                            
+                            <p id="texto" class="text-center">Vivero Sun Flower</p>
+                            <br>                            
+                            <a id="boton_personalizado" href="#formulario">CONTÁCTANOS</a>
+
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="card">
+        <div class="card-header text-center">
+            <h3><b>Ubicación</b></h3>
+        </div>
+        <div class="card-body text-center">
+            <blockquote class="blockquote mb-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30295.261646703897!2d-100.64978097307448!3d18.35149455047377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84332d3a6064f15b%3A0xe43cfa46ed30f7e9!2sLos%20Limones%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1611673564924!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                
+                <footer class="blockquote-footer text-center">C. Paraiso #12, Los Limones CP 40677 Cd. Altamirano Gro. 7671227954 <cite title="Source Title"></cite></footer>
+            </blockquote>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="formulario" class="text-center">
+        <h3 class="text-primary">¿Necesitas ayuda?</h3>
+    </div>
+
+    <div class="card-body mr-5 ml-5">
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <form>
+                        <div class="form-group col-md-12 my-3">
+                            <label for="inputCorreo">Correo Electrónico</label><label style="color: #ff253a">*</label>
+                            <input type="email" class="form-control" id="txtCorreo" placeholder="Usuario@gmail.com" required>
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <label for="inputNombre">Nombre Completo</label><label style="color: #ff253a">*</label>
+                            <input type="text" class="form-control" id="txtNombre" required>
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <label for="inputTel">Teléfono</label>
+                            <input type="text" class="form-control" id="txtTel">
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <label for="inputMotivo">Motivo</label><label style="color: #ff253a">*</label>
+                            <input id="txtMotivo" type="text" class="form-control" id="inputMotivo" placeholder="Descripción por el cual se contacta con nosotros" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="inputAsunto">Asunto</label>
+                            <textarea class="form-control" id="txtAsunto" rows="3"></textarea>
+                        </div>
+                        <div class="form-check ml-2">
+                            <input class="form-check-input ml-1" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label ml-4" for="gridCheck">
+                                Estoy de Acuerdo
+                            </label>
+                        </div>                  
+                        <div class="my-2 ml-2">
+                            <small style="color: #ff253a">*</small><small>Obligatorio</small>
+                        </div>
+                        <div class="mr-2 my-2">
+                            <button type="submit" class="btn btn-primary col-sm-3 mr-2 ml-2" onclick="enviarCorreo(); ">Enviar</button>
+                            <button type="submit" class="btn btn-primary col-sm-3 mr-2 ml-2" onclick="limpiarCamposFormulario()(); ">Nuevo</button>
+                        </div>
+                    </form>
+                </div>
+            </div>          
+        </div>
+    </div>
+
+
+</body>

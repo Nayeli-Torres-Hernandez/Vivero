@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sun Flower</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+        
+        <link rel="icon" type="image/png" sizes="16x16" href="media/img/logo1.png">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div>
+            <nav class="navbar navbar-expand-lg " style="background-color:#15762f">
+                <div class="container">
+                    <a class="navbar-brand" href="#" onclick="cargarHome();">
+                        <img src="media/img/logo1.png" style="width:100px; height:100px;" >
+                    </a>                
+                    <h3 class="text-white">Sun Flower</h3>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#" onclick="cargarPlantasInterior()();">Plantas de Interior
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#" onclick="cargarPlantasExterior()();">Plantas de Exterior
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#" onclick="cargarContactanos()">Contáctanos
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#" onclick="cargarQuienesSomos();">¿Quiénes somos?
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="divInicioLogo" class="text-center my-4">
+            <img src="media/img/logo1.png" height="350" width="350" alt="...">
+        </div>
+
+        <div id="divContenedorTODO" class="container-fluid mt-4"></div>
+        <div id="divQuienesSomos" class="container-fluid"></div>
+
+
+
+
+
+
+        <!-- Footer -->        
+        <footer class=" text-center bg-dark my-4" navbar-expand-lg>
+            <div class="container ">
+                <br>
+                <a href="http://www.Facebook.com">
+                    <img src="media/img/f3.png " title="MyPet" width="50" height="50" align="left">
+                </a>
+                <a href="http://www.Instagram.com">
+                    <img src="media/img/f1.png " title="MyPet" width="50" height="50" align="right">
+                </a>
+                <a href="Ubicacion.html"><img src="media/img/u.png " title="MyPet" width="50" height="50"></a>
+                <h5 class="text-center text-white"> C. Paraiso #12, Los Limones CP 40677 Cd. Altamirano Gro.</h5>
+                <p class="m-0 text-center text-white">Copyright &copy; Sun Flower 2021</p>
+                <br>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script type="text/javascript" src="js/jquery/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="style/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/peticionAJAX.js"></script>
+    </body>
+</html>
